@@ -13,5 +13,11 @@ def main():
         number = float(number)
         sum1 += number
         number = input("Enter a number or press Enter to quit: ")
+    average = mean(sum1, count)
+    print("The average number is", round(average,2))
+
+def mean(x,y):
+    return x / y
+
 
 main()
